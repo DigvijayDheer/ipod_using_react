@@ -1,0 +1,65 @@
+.wheel-container {
+  position: relative;
+  width: 80%;
+  height: 50%;
+}
+
+.wheel {
+  cursor: pointer;
+  position: absolute;
+  width: 90%;
+  height: 80%;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.blank {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: rgb(210, 210, 210);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.controls {
+  color: rgb(210, 210, 210);
+  position: absolute;
+}
+
+#menu {
+  position: absolute;
+  top: 9%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 900;
+  font-size: 1.6rem;
+}
+
+#reverse {
+  position: absolute;
+  left: 10%;
+  bottom: 40%;
+  transform: translateY(-50%);
+  font-size: 1.8rem;
+}
+
+#forward {
+  position: absolute;
+  right: 10%;
+  bottom: 40%;
+  transform: translateY(-50%);
+  font-size: 1.8rem;
+}
+
+#play-pause {
+  position: absolute;
+  bottom: 9%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.2rem;
+}

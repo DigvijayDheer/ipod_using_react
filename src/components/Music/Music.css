@@ -1,0 +1,13 @@
+.music {
+  height: calc(100% - 2rem);
+  background-color: #e3f2fd;
+  overflow-y: auto;
+}
+
+h2 {
+  margin: 1px;
+}
+
+.music #song1 {
+  padding: 0px 0px;
+}
