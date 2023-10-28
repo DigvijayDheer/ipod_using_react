@@ -13,7 +13,7 @@ class Songs extends React.Component {
                 &nbsp;{element}
               </li>
             ) : (
-              <li id="song1" key={index}>
+              <li style={{ padding: "0.5rem" }} id="song1" key={index}>
                 &nbsp;{element}
               </li>
             );

@@ -1,6 +1,5 @@
 import React from "react";
 import Case from "../Case/Case";
-import KnowMore from "../KnowMore/KnowMore";
 import { songs } from "../../assets/songsData";
 import { wallpaper1, wallpaper2, wallpaper3 } from "../../assets/index";
 
@@ -27,8 +26,8 @@ class App extends React.Component {
       },
       menuMapping: {
         "-1": [0, 1, 2, 3],
-        1: Array.from({ length: songs.length }, (_, i) => i + 4), // Dynamic mapping for Music menu
-        3: Array.from({ length: songs.length }, (_, i) => i + 8), // Dynamic mapping for All Songs menu
+        1: Array.from({ length: songs.length }, (_, i) => i + 4),
+        3: Array.from({ length: songs.length }, (_, i) => i + 8),
       },
       currentMenu: -2,
       navigationStack: [],
@@ -348,7 +347,6 @@ class App extends React.Component {
     } = this.state;
     return (
       <div className="App">
-        {/* <KnowMore /> */}
         <Case
           songIndex={songIndex}
           active={active}
